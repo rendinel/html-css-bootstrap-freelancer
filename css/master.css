@@ -1,0 +1,30 @@
+.container-fluid{
+  background-color: #2C3E50;
+  height: 100px;
+}
+
+nav{
+  background-color: red;
+  height: 100px;
+}
+
+.jumbotron{
+  background-color: #1ABC9C;
+}
+
+.jumbotext{
+}
+
+.starcont{
+  height: 40px;
+  line-height: 40px;
+  background-color: yellow;
+  width:auto;
+}
+.hr{
+  border-bottom: 2px solid #fff;
+  height: 2px;
+  width: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
