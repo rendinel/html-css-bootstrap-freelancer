@@ -1,81 +1,106 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>Bootstrap 101 Form</title>
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/master.css">
-    <meta charset="utf-8">
-    <title>Freelancer</title>
   </head>
   <body>
-
-     <!-- inizio nav -->
-    <div class="container-fluid col-xs-12">
-      <nav class="container col-xs-12">
-      </nav>
-    </div>
+    <!-- inizio nav -->
+    <nav class="navbar navbar-default bl-navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand text-uppercase" href="#">Start Bootstrap</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="text-uppercase"><a href="#">Portfolio</a></li>
+            <li class="text-uppercase"><a href="#">Contact</a></li>
+            <li class="text-uppercase"><a href="#">About</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div><!--/.container-fluid -->
+    </nav>
     <!-- fine nav -->
 
-    <!-- inizio jumbotron -->
-    <div class="jumbotron-fluid col-xs-12">
-      <div class="jumbocont container col-xs-12">
-        <img src="images/avatar.svg" alt="immagine avatar">
-        <h1>Start Bootstrap</h1>
-        <ul>
-          <li class="hr"></li>
-          <li> <span class="glyphicon glyphicon-star"> </span> </li>
-          <li class="hr"></li>
-        </ul>
-        <ul>
-          <li>GRAPHIC ARTIST</li>
-          <li class="wbtext">WEB DESIGNER</li>
-          <li>ILLUSTRATOR</li>
-        </ul>
-      </div>
-    </div>
+     <!-- inizio jumbotron -->
+     <div class="jumbotron-fluid">
+       <div class="container">
+         <div class="row">
+           <div class="col-xs-12 col-sm-12 col-md-12">
+             <img id="avatar" src="images/avatar.svg" alt="avatar freelancer">
+             <h1>START BOOTSTRAP</h1>
+             <div class="star-separator star-white"> <i class="fa fa-star"></i></div>
+             <div class="qualification">
+              GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
     <!-- fine jumbotron -->
 
     <!-- inizio portfollio -->
-    <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <img src="images/house.png" alt="">
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <img src="images/house.png" alt="">
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <img src="images/house.png" alt="">
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <img src="images/house.png" alt="">
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <img src="images/house.png" alt="">
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <img src="images/house.png" alt="">
+    <div class="portcont container-fluid">
+      <div class="container">
+        <div class="row">
+          <h2>PORTFOLIO</h2>
+          <div class="star-separator star-dark"> <i class="fa fa-star"></i></div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <img id="work" class="img-fluid" src="images/house.png" alt="house image">
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <img id="work" class="img-fluid" src="images/house.png" alt="house image">
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <img id="work" class="img-fluid" src="images/house.png" alt="house image">
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <img id="work" class="img-fluid" src="images/house.png" alt="house image">
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <img id="work" class="img-fluid" src="images/house.png" alt="house image">
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <img id="work" class="img-fluid" src="images/house.png" alt="house image">
+        </div>
+        </div>
       </div>
     </div>
     <!-- fine portfollio -->
 
     <!-- inizio about -->
-    <div class="about container-fluid col-xs-12">
-      <div class="aboutcont container col-xs-12">
-        <h2>ABOUT</h2>
-        <li class="hr"></li>
-        <li> <span class="glyphicon glyphicon-star"> </span> </li>
-        <li class="hr"></li>
+    <div class="aboutcont container-fluid">
+      <div class="container">
+        <h2>PORTFOLIO</h2>
+        <div class="star-separator star-white"> <i class="fa fa-star"></i></div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-4 col-md-6 ml-auto">
+            Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-6 ml-auto">
+            Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
+          </div>
+        </div>
+        <button type="button" class="btn btn-outline-light">Light</button>
       </div>
     </div>
     <!-- fine about -->
 
-    <div class="">
-
-    </div>
-
-
-
+    <!-- inizio form -->
+    <!-- fine form -->
 
   </body>
 </html>

@@ -1,84 +1,96 @@
-.container-fluid{
-  height: 100px;
-  background-color: #2C3E50;
+/* classi nav */
+.bl-navbar {
+  background-color: #2c3e50;
+  color: #fff;
 }
 
-nav{
-  background-color: red;
-  height: 100%;
+.bl-navbar .navbar-brand, .bl-navbar .navbar-nav>li>a {
+  color: #fff;
 }
+
+.bl-navbar .navbar-brand {
+  font-size:24px;
+  font-weight: bolder;
+}
+
+.bl-navbar .navbar-nav>li>a {
+  font-weight: bolder;
+}
+
+.bl-navbar .navbar-brand:hover, .bl-navbar .navbar-nav>li>a:hover {
+  color: #1ABC9C;
+}
+/* classi nav fine */
+
+/* inizio jumbotron */
 
 .jumbotron-fluid{
   background-color: #1ABC9C;
   height: 600px;
   color: white;
-}
-
-.jumbocont{
   text-align: center;
 }
 
- .jumbocont > img{
-  width:40%;
+#avatar{
+  width:30%;
   height: auto;
 }
 
-.hr{
-  border-bottom: 4px solid #fff;
-  width: 20px;
+.star-separator i {
+  line-height: 4px;
   vertical-align: middle;
 }
 
-.jumbocont > ul{
-  height: 100px;
-  line-height: 100px;
-}
-
-.jumbocont > ul > li{
+.star-separator::before,
+.star-separator::after {
+  content: '';
   display: inline-block;
-  margin-right: 15px;
+  width: 100px;
+  height: 4px;
+  border-radius: 2px;
+  vertical-align: middle;
 }
 
-.wbtext::after,.wbtext::before {
-  content: "-";
-  font-size: 20px;
+.star-separator.star-white::before, .star-separator.star-white::after {
+  background-color: white;
 }
 
-.portfolio{
+.star-separator.star-white{
+  color:white;
+}
+
+.star-separator.star-dark::before, .star-separator.star-dark::after {
+  background-color: #2c3e50;
+}
+
+.star-separator.star-dark{
+  color:#2c3e50;
+}
+
+.qualification{
+  font-size: 30px;
+  font-weight: bolder;
+}
+/* fine jumbotron */
+
+/* inizio portfollio */
+.portcont{
   height: 100%;
-}
-
-.portfoliocont{
-text-align: center;
-}
-
-.row > img{
- width:80%;
- height: auto;
-}
-
-.hr2{
-  border-bottom: 4px solid #2C3E50;
-  width: 20px;
-  vertical-align: middle;
-}
-
-.about{
-    background-color: #1ABC9C;
-    height: 600px;
-}
-
-.aboutcont{
+  background-color: #fff;
   text-align: center;
-  color: #fff;
 }
 
-.aboutcont > ul{
-  height: 100px;
-  line-height: 100px;
+#work{
+  width:70%;
+  height: auto;
 }
+/* fine portfollio */
 
-.aboutcont > ul > li{
-  display: inline-block;
-  margin-right: 15px;
+/* inizio about */
+.aboutcont{
+  background-color: #1ABC9C;
+  height: 400px;
+  color: white;
+  text-align: center;
 }
+/* fine about */
