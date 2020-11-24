@@ -1,42 +1,94 @@
-.container-fluid{
-  background-color: #2C3E50;
+.conainer-fluid{
   height: 100px;
+  background-color: #2C3E50;
 }
 
 nav{
   background-color: red;
-  height: 100px;
+  height: 100%;
 }
 
-.jumbotron{
+.jumbotron-fluid{
   background-color: #1ABC9C;
+  height: 600px;
+  color: white;
 }
 
-.jumbotext{
+.jumbocont{
   text-align: center;
-  color: #fff;
 }
 
-.starcont{
-  height: 40px;
-  line-height: 40px;
-  width:100px;
-  text-align: center;
+ .jumbocont > img{
+  width:40%;
+  height: auto;
 }
 
 .hr{
   border-bottom: 4px solid #fff;
   width: 20px;
-  display: inline-block;
   vertical-align: middle;
 }
 
-.jumbotext > ul{
+.jumbocont > ul{
   height: 100px;
   line-height: 100px;
 }
 
-.jumbotext > ul > li{
+.jumbocont > ul > li{
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.wbtext::after,.wbtext::before {
+  content: "-";
+  font-size: 20px;
+}
+
+.portfolio{
+  height: 100%;
+}
+
+.portfoliocont{
+text-align: center;
+}
+
+.row > img{
+ width:80%;
+ height: auto;
+}
+
+.portfoliocont > ul{
+  height: 100px;
+  line-height: 100px;
+}
+
+.portfoliocont > ul > li{
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.hr2{
+  border-bottom: 4px solid #2C3E50;
+  width: 20px;
+  vertical-align: middle;
+}
+
+.about{
+    background-color: #1ABC9C;
+    height: 600px;
+}
+
+.aboutcont{
+  text-align: center;
+  color: #fff;
+}
+
+.aboutcont > ul{
+  height: 100px;
+  line-height: 100px;
+}
+
+.aboutcont > ul > li{
   display: inline-block;
   margin-right: 15px;
 }
