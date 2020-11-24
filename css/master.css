@@ -1,4 +1,4 @@
-.conainer-fluid{
+.container-fluid{
   height: 100px;
   background-color: #2C3E50;
 }
@@ -55,16 +55,6 @@ text-align: center;
 .row > img{
  width:80%;
  height: auto;
-}
-
-.portfoliocont > ul{
-  height: 100px;
-  line-height: 100px;
-}
-
-.portfoliocont > ul > li{
-  display: inline-block;
-  margin-right: 15px;
 }
 
 .hr2{
