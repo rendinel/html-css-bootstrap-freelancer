@@ -1,0 +1,24 @@
+.container-fluid{
+  height: 200px;
+}
+
+.container{
+  height: 100%;
+}
+
+.row{
+  height: 100%;
+}
+
+[class*="col-"]{
+  background-color: pink;
+  border: 2px solid black;
+  height: 100%;
+}
+
+[class*="col-"] .row [class*="col-"] {
+  height: 160px;
+  background-color: lightcoral;
+  border: 1px solid white;
+  margin-top: 20px;
+}
